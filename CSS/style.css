@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Futura New';
+    src: local('Futura New Book Reg'), local('Futura-New-Book-Reg'),
+        url('../assets/Fonts/FuturaNewBook-Reg.woff2') format('woff2'),
+        url('../assets/Fonts/FuturaNewBook-Reg.woff') format('woff'),
+        url('../assets/Fonts/FuturaNewBook-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.axora-label {
+    margin-bottom: 15px;
+}
+.info-about-company {
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.font-style {
+    font-family: 'Futura New';
+}
+.company-description {
+    width: 310px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .company-contacts-font-style{
+      color: #444444;
+      margin: 0;
+  }
+  .company-contacts-info {
+    justify-content: space-between;
+  }
+
+  .search-field {
+      height: 30px;
+      border: none;
+      border-bottom: 1px rgb(206, 206, 206) solid;
+      width: 100%;
+      color: rgb(130, 130, 130);
+      font-size: 16px;
+  }
+
+  .search-button {
+      width: 30px;
+      height: 30px;
+      background-color: rgb(255, 226, 89);
+      padding-bottom: 5px;
+      border: none;
+  }
+
+  .search-button:hover {
+    background-color: rgb(252, 230, 121);
+  }
+
+  .navigation-menu-item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+   }
+
+   .navigation-menu-item:hover {
+       text-decoration: underline #ffb878;
+   }
+
+  .navigation-menu-wrapper{
+      margin-top: 15px;
+      padding-left: 60px;
+      padding-right: 60px;
+      background: linear-gradient(45deg, #ff7f40, #ffbf3b);
+      border-bottom: 1px #d0b88b solid;
+  }
+
+  .navigation-menu {
+    display: flex;
+    justify-content: space-between;
+   }
+ 
+   .info-about-products-wrapper{
+       margin-top: 60px;
+   }
+
+   .info-about-products {
+    padding-left: 60px;
+   }
+   .product-title {
+    font-size: 22px;
+   }
+   
+   .product-description {
+       padding-left: 60px !important;
+   }
+
+   .approximate-price {
+       color: #8f8f8f;
+   }
+  
+   .submit-application-button {
+       width: 205px;
+       height: 55px;
+       background-color: rgb(255, 226, 89);
+       border: none;
+       border-radius: 5px;
+       font-size: 18px;
+       margin-right: 40px;
+   }
+
+   .submit-application-button:hover {
+    background-color: rgb(252, 230, 121);
+   }
+
+   .add-to-comparison-checkbox {
+       background-color: white;
+       width: 20px;
+       height: 20px;
+       margin-right: 10px;
+   }
+
+   .buy-product-buttons {
+       display: flex;
+       align-items: center;
+   }
+
+   .product-characteristic{
+       /* border-bottom: 1px dotted #8f8f8f; */
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 30px;
+
+   }
+
+   .product-caracteristic-font-size {
+       font-size: 18px;
+   }
+
+   .product-characteristics  {
+       margin-top: 50px;
+   }
+ 
+   .buy-together-wrapper {
+       background-color: #efefef;
+       display: flex;
+       padding-top: 35px;
+       padding-bottom: 60px;
+       padding-left: 40px;
+   }
+
+.buy-together-goods {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+   .buy-together-item {
+       background-color: white;
+       padding-left: 30px;
+       padding-top: 30px;
+       padding-right: 15px;
+       padding-bottom: 85px;
+   }
+
+   .buy-together-item:hover {
+    box-shadow: -1px 4px 10px 0px rgba(99,99,99,1);
+   }
+
+.boiler-name {
+    color: #43a1e2;
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 0;
+}
+
+.boiler-characteristics {
+    font-size: 14px;
+    margin: 0;
+}
+
+.boiler-price {
+    font-weight: bold;
+}
+
+.dottes {
+    border-bottom: 1px gray dotted;
+    flex: 1 1 auto;
+    margin-bottom: 7px;
+}
+
+.footer-font-style {
+    font-weight: 600;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.develop-company-description {
+    font-size: 12px;
+}
+
+.swiper {
+    height: 20px;
+    width: 10px;
+    text-align: center;
+}
+
+.product-image{
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .buy-together-item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .info-about-company {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .company-description {
+        width: auto;
+    }
+
+    .product-description{
+        padding-left: 15px !important;
+    }
+
+    .navigation-menu-wrapper{
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .navigation-menu-item{
+        padding: 10px 0;
+    }
+    .info-about-products {
+        padding-left: 15px;
+    }
+    .product-image{
+        width: 50%;
+    }
+    .buy-together-wrapper{
+        padding-left: 15px;
+    }
+    .footer-font-style{
+        padding: 0 10px;
+    }
+    .swiper {
+        display: none;
+    }
+    .buy-together-item{
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 5px;
+    }
+    
+}
